@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "termMonths": 12,
+    "monthlyPrice": 6.17,
+    "saving": 0.15,
+    "ribbonText": "Best value"
+  },
+  {
+    "id": 2,
+    "termMonths": 6,
+    "monthlyPrice": 6.52,
+    "saving": 0.10
+  },
+  {
+    "id": 3,
+    "termMonths": 3,
+    "monthlyPrice": 6.89,
+    "saving": 0.05
+  },
+  {
+    "id": 4,
+    "termMonths": 1,
+    "monthlyPrice": 7.25,
+    "saving": 0
+  }
+]

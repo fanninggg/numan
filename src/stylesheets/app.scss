@@ -1,0 +1,26 @@
+@import "fonts";
+@import "navbar";
+@import "subscription-card";
+@import "footer";
+@import "buttons";
+
+.container {
+  padding: 32px 16px;
+}
+
+.subscription-options {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 64px;
+
+  @media (min-width: 576px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 992px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: dense;
+  }
+}

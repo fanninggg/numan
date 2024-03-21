@@ -1,0 +1,67 @@
+.subscription-card {
+  max-width: 100%;
+  padding: 16px;
+  border: 3px solid #E6E6E6;
+  border-radius: 8px;
+  position: relative;
+  overflow-x: clip;
+  cursor: pointer;
+
+  &.checked {
+    border: 3px solid #404040;
+  }
+  
+  .saving {
+    color: #198754; 
+  }
+
+  .monthly-price {
+    display: flex;
+    height: 42px;
+    
+    p {
+      margin: 0 4px 0 0;
+    }
+
+    .price-figure {
+      font-size: 40px;
+      font-weight: 500;
+    }
+
+    .price-term {
+      align-self: flex-end;
+    }
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .ribbon {
+    width: 190px;
+    height: 30px;
+    background-color: #198754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 38px;
+    right: -42px;
+    transform: rotate(45deg);
+    p {
+      color: #fff;
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+
+  &:hover {
+    box-shadow: 2px 2px 16px 0 rgba(0,0,0,0.08);
+  }
+  
+}
